@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: "Roboto";
+    min-height: 100vh;
+}
+.error-message{
+    text-align: center;
+    color: darkturquoise;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 4px;
+}
+@media (min-width:576px){
+    .error-message{
+        font-size: 48px;
+    }
+}
